@@ -14,7 +14,8 @@ module.exports = {
     },
     rules: {
       "no-console": "off",
-      "no-alert": "off"
+      "no-alert": "off",
+      "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
     }
   };
   
