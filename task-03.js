@@ -1,4 +1,4 @@
-const findBestEmployee = function productiveWorker(employees) {
+const findBestEmployee = (employees) => {
   const entries = Object.entries(employees);
   let max = 0;
   let name;
